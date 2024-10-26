@@ -1,1 +1,1 @@
-# CsGpt-Ai-Backend
+# CSGPT-AI-Backend

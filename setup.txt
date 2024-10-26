@@ -1,0 +1,20 @@
+open ubuntu and start redis server
+sudo service redis-server start
+sudo service redis-server status
+
+to stop the redis server
+sudo service redis-server stop
+
+
+open cmd go to ai_Server
+start env
+
+for celery to start 
+celery -A server.celery_app worker -l info -P gevent
+
+for flower
+celery -A server.celery_app flower --port=5555
+
+
+to shut down ubuntu
+wsl --shutdown
