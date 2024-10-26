@@ -1,2 +1,3 @@
 .gitignore
-test_server/6_doc_db/
+test_server/6_doc_db
+csgpt/.env

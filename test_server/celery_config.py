@@ -16,9 +16,9 @@ def connect_db():
     connection = psycopg2.connect(
         host='localhost',
         port='5432',
-        dbname='csgpt_db' ,
-        user='myuser' ,
-        password='root' 
+        dbname='' ,
+        user='' ,
+        password='' 
     )
     return connection,connection.cursor()
 
